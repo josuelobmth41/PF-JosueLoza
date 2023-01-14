@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    bottom: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../imagenes/pawprints-gbe884adb1_1920.jpg);
+    animation: movimiento 10s infinite linear alternate;
+}
+
+@keyframes movimiento{
+
+    from { 
+
+        background-position: bottom;
+
+    }
+    to{
+
+        background-position: top;
+
+    }
+
+}
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 80px;
+
+}
+h2{
+    text-align: center;
+}
+
+.container{
+    padding-left: 100px;
+    display: flex;
+    gap: 450px;
+}
+
+footer{
+    background-color: #e3f2fd;
+    height: 500px;
+    height: 200px;
+    
+}
+.redes-container{
+    display: flex;
+    height: 30vh;
+    align-items: center; 
+    justify-content: center;
+  
+    
+}
+
+.redes-container ul li {
+
+    display: inline-block;
+    margin: 0, 50px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    
+
+
+}
+
+.redes-container ul li a {
+    display: block;
+    padding: 0, 10px;
+    background: gray;
+    color: aqua;
+    line-height: 80px;
+    font-size: 50px;
+    box-shadow: 0, 3px 5px 0px rgba(0, 0, 0, .2); 
+    transition: .2s;
+    
+    
+}
