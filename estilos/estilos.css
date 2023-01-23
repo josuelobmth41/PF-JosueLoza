@@ -6,7 +6,7 @@
 body{
     background: url(../imagenes/pawprints-gbe884adb1_1920.jpg);
     animation: movimiento 10s infinite linear alternate;
-}
+width: 100%;}
 
 @keyframes movimiento{
 
@@ -32,16 +32,10 @@ h2{
     text-align: center;
 }
 
-.container{
-    padding-left: 100px;
-    display: flex;
-    gap: 450px;
-}
-
 footer{
     background-color: #e3f2fd;
-    height: 500px;
-    height: 200px;
+    height: 260px;
+    
     
 }
 .redes-container{
