@@ -1,0 +1,35 @@
+footer{
+    background-color: #e3f2fd;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    .buttons{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        gap: 100px;
+
+        a{
+            text-decoration: none;
+    font-size: 86px;
+    width: 106px;
+    height: 96px;
+    line-height: 1;
+    text-align: center;
+    background: aqua;
+    color: gray;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    transition: all .4s ease-in-out;
+
+        &:hover{
+
+            transform: scale(1.2);
+
+        }
+}
+    }
+
+}

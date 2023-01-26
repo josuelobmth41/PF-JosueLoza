@@ -1,0 +1,21 @@
+body{
+    background: url(../imagenes/pawprints-gbe884adb1_1920.jpg);
+    animation: movimiento 10s infinite linear alternate;
+width: 100%;
+
+    @keyframes movimiento{
+
+    from { 
+
+        background-position: bottom;
+
+    }
+    to{
+
+        background-position: top;
+
+    }
+
+}
+
+}
